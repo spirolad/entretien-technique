@@ -9,8 +9,8 @@ export interface User {
 @Injectable({
   providedIn: 'root',
 })
-export class Super {
-  
+export class UserService {
+
   private userData = [
     { name: 'John Doe', age: 30, email: 'john.doe@example.com' },
     { name: 'Jane Smith', age: 25, email: 'jane.smith@example.com' }
