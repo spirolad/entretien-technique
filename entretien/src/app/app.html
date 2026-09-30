@@ -1,0 +1,6 @@
+
+<ul>
+  @for (user of userData(); track user.name) {
+    <li>{{ user.name }}, {{ user.age }}, {{ user.email }}</li>
+  }
+</ul>
